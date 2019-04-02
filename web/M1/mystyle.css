@@ -176,3 +176,58 @@ header{
      right: -40px;
      
  }
+ button{
+     position: relative;
+     top: -40px;
+     background-color: #4CAF50;
+     color: white;
+     padding: 10px 10px;
+     margin: 20px 0;
+     border: none;
+     cursor: pointer; /*mi permette avvicinandomi alla casella del login di visualizzare un altro cursore così da far capire che è cliccabile*/
+     width: 200px;
+     right: 20px;
+ }
+ 
+ #username{
+     position: relative;
+     height: 40px;
+     top: -35px;
+     width: 200px;
+     right: 20px;
+         
+ }
+ #email{
+     position: relative;
+     top: -35px;
+     font-size: 20px;
+     right: 20px;
+ }
+ #pswd{
+     position: relative;
+     top: -35px;
+     height: 40px;
+     width: 200px;
+     right: 20px;
+ }
+ 
+ #inserpswd{
+     
+     position: relative;
+     top: -35px;
+     font-size: 20px;
+     right: 20px;
+    
+ }
+ 
+
+ 
+  
+ #ricordami{
+     position: relative;
+     top: -56px;
+     left: 0px;
+ }
+         
+      
+  

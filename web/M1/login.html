@@ -65,16 +65,22 @@ and open the template in the editor.
        </div       
     <form   action="Login" method="get"> 
         
-    <label for="corto">Email</label>
+    <label for="corto" id="email">Email</label>
        
-    <input type="text" name="corto" id="corto" value="Username" />
+    <input type="text" name="corto" id="username" value="Username" />
      
    
     <br/>
-    <label  for="pswd"> Password </label>
+    <label  for="pswd" id="inserpswd"> Password </label>
   <input type="password" name="pswd" id="pswd" value="oscurato"/>
   <br>
-            
+  <button type="submit" id="bottonelogin">Login</button>
+  <div id="ricordami">
+    <label>
+      <input type="checkbox" checked="checked" name="ricordami" id="bottonericordami"> Ricordami  <!--checked mi serve per avere la spunta sul quadratino -->
+    </label>
+     
+  </div>
         </div>
     </body>
     
