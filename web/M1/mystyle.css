@@ -155,6 +155,24 @@ header{
      
      
  }
- .email{
-    
+ 
+#imglogin{ 
+    top:-410px;
+    width: 60%;
+    right:-20px;
+    margin: 80px ; /*indico quanto dev'essere il margin tra l'immagine e il form usn e psw'*/
+    position: relative;
+ }
+ .avatar{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    margin-left: -125px;
+ }
+ 
+ #titlelogin{
+     position:relative;
+     top: 20px;
+     right: -40px;
+     
  }
